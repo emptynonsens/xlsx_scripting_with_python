@@ -5,8 +5,6 @@ import openpyxl
 
 class WorkSheet:
     
-    list_of_cols = ['pln_CompanyID', 'pln_ccNumber', 'pln_MapID', 'pln_Date', 'pln_PlanValue', 'pln_Active']
-    
     def __init__(self, filepath, password):
         self.filepath = filepath
         self.password = password
